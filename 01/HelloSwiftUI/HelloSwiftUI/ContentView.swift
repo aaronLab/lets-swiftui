@@ -12,6 +12,8 @@ struct ContentView: View {
         Text("Hello, world!")
             .font(.largeTitle)
             .foregroundColor(.red)
+            .italic()
+            .bold()
             .colorInvert()
     }
 }
