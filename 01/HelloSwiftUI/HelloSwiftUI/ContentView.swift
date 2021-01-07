@@ -14,6 +14,7 @@ struct ContentView: View {
             .foregroundColor(.red)
             .italic()
             .bold()
+            .lineLimit(1)
             .colorInvert()
     }
 }
